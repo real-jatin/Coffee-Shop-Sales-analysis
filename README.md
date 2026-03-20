@@ -54,7 +54,7 @@ To build an interactive dashboard that:
 • Total Tax: 64,346
 
 📈 Monthly Profit Trend (Line Chart)
-[Dashboard Preview].(https://github.com/real-jatin/Coffee-Shop-Sales-analysis/blob/main/sales.png)
+![Dashboard Preview].(https://github.com/real-jatin/Coffee-Shop-Sales-analysis/blob/main/sales.png)
 
 Displays profit fluctuations across months, helping identify:
 • Peak performance periods (e.g., May, December)
