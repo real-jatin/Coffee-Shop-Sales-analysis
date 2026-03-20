@@ -1,121 +1,155 @@
-#☕ Coffee Analytics: Shop Performance & Sales Insights Dashboard
+#☕ Coffee Shop Sales & Profitability Dashboard
+📌 Short Description / Purpose
 
-A dynamic, interactive Power BI dashboard designed to analyze coffee shop performance—focusing on profitability, sales trends, category contributions, and monthly performance insights.
+The Coffee Shop Dashboard is an interactive Power BI report designed to analyze sales, profit, orders, and category performance across time. It helps identify high-performing products, track monthly trends, and optimize business decisions using data-driven insights.
 
-2. Short Description / Purpose
+🛠️ Tech Stack
 
-The Coffee Analytics Dashboard is a visually rich and analytical report built to help track and optimize a coffee shop’s financial and sales performance. It highlights key metrics like profit margins, total sales, category-wise contributions, and monthly trends—enabling smarter business decisions.
+The dashboard was built using:
 
-3. Tech Stack
+📊 Power BI Desktop – Main visualization tool
+🔄 Power Query – Data cleaning and transformation
+🧠 DAX (Data Analysis Expressions) – KPIs like Profit Margin, Total Sales, Total Profit
+🧩 Data Modeling – Relationships between orders, categories, and sub-categories
+📁 File Format – .pbip (development), .png (dashboard previews)
 
-The dashboard was built using the following tools and technologies:<br>
-• 📊 Power BI Desktop – Main platform for creating interactive dashboards.<br>
-• 📂 Power Query – Used for data cleaning, shaping, and transformation.<br>
-• 🧠 DAX (Data Analysis Expressions) – Created measures like profit margin, total profit, and KPIs.<br>
-• 🔗 Data Modeling – Relationships between sales, category, and time data for cross-filtering.<br>
-• 📁 File Format – .pbix for development and .png for dashboard previews.<br>
+📂 Data Source
 
-4. Data Source
+Coffee shop transactional dataset containing:
 
-Source: Simulated / Retail Coffee Shop Dataset
+Sales & profit data
 
-The dataset includes transactional-level data such as:<br>
-• Orders and sales details<br>
-• Product categories & sub-categories (Coffee, Tea, Snacks, Bakery, Cold Drinks)<br>
-• Monthly sales and profit data<br>
-• Tax and revenue breakdowns<br>
+Product categories & sub-categories (Coffee, Tea, Snacks, Bakery, Cold Drinks)
 
-5. Features / Highlights
-• Business Problem
+Order details
 
-Coffee shops generate large volumes of transactional data daily, but extracting meaningful insights—like which products drive profit or when sales peak—can be challenging without proper visualization.
+Monthly time-based data
 
-Key questions include:
-Which category is the most profitable?
-What are the monthly sales trends?
-Which products contribute the most to overall profit?
-How do sales and profit correlate across categories?
+🌟 Features & Highlights
+🔴 Business Problem
 
-• Goal of the Dashboard
+Coffee shop businesses often struggle to:
 
-To build an interactive dashboard that:
-• Tracks overall business performance through KPIs
-• Identifies high-performing categories and sub-categories
-• Analyzes monthly trends in sales and profit
-• Supports data-driven decision-making for pricing, inventory, and marketing
+Identify which products generate the most profit
 
-• Walkthrough of Key Visuals
-📌 Key KPIs (Top Section)
+Track monthly performance trends
 
-• Total Orders: 2,480
-• Total Sales: 588,914
-• Total Profit: 175,718
-• Profit Margin: 33.50%
-• Total Tax: 64,346
+Understand category-wise sales contribution
 
-📈 Monthly Profit Trend (Line Chart)
-![Dashboard Preview](https://github.com/real-jatin/Coffee-Shop-Sales-analysis/blob/main/sales.png)
+Balance high sales vs high profitability items
 
-Displays profit fluctuations across months, helping identify:
-• Peak performance periods (e.g., May, December)
-• Low-performing months (e.g., March, November)
-• Seasonal trends affecting revenue
+🎯 Goal of the Dashboard
 
-📊 Sales by Month (Bar Chart)
+To build a centralized dashboard that:
 
-Highlights monthly sales distribution:
-• Identifies highest revenue months (August, December)
-• Helps in forecasting and demand planning
+Tracks overall sales and profit performance
 
-🥧 Orders by Category (Pie Chart)
+Identifies top-performing categories & sub-categories
 
-Shows distribution of total orders:
-• Beverages dominate order volume
-• Food contributes a smaller but significant portion
+Monitors monthly trends and seasonality
 
-📊 Profit by Category (Bar Chart)
+Supports better pricing and product decisions
 
-• Beverages generate the highest profit
-• Food category contributes slightly lower but stable profit
+📊 Dashboard Walkthrough
+1️⃣ Sales Overview Dashboard
+![Dashboard Preview](https://github.com/real-jatin/Coffee-Shop-Sales-analysis/blob/main/profitability.png)
 
-📊 Profit by Sub-Category (Horizontal Bar Chart)
+KPIs (Top Section)
 
-Breakdown of profit across:
-• Coffee (highest contributor)
-• Snacks & Tea (closely competing)
-• Bakery
-• Cold Drinks (lowest contributor)
+Total Sales: 588,914
 
-📊 Profit Contribution (%) (Stacked Chart)
+Total Profit: 175,718
 
-Visualizes percentage contribution:
-• Coffee leads (~24.56%)
-• Snacks & Tea follow closely
-• Balanced distribution across categories
+Total Orders: 2,480
 
-📍 Sales & Profit by Sub-Category (Scatter Plot)
+Total Tax: 64,346
 
-• Shows relationship between sales and profit
-• Helps identify high-revenue but low-profit items
-• Useful for pricing and cost optimization
+Total Orders by Category (Pie Chart)
 
-• Business Impact & Insights
+Balanced distribution between Beverages and Food
 
-• 📌 Revenue Optimization
-Identify top-performing products (like Coffee) and focus marketing efforts on them.
+Helps understand demand split
 
-• 📌 Inventory Planning
-Understand demand patterns to manage stock efficiently.
+Monthly Sales Trend
 
-• 📌 Profit Maximization
-Detect low-profit categories (e.g., Cold Drinks) and adjust pricing or costs.
+Peak sales observed in May, August, and December
 
-• 📌 Seasonal Strategy
-Use monthly trends to plan promotions during peak and slow periods.
+Slight dips in March and November
 
-• 📌 Data-Driven Decisions
-Empowers business owners to make informed decisions on menu design, pricing, and expansion.
+Useful for seasonal planning
 
-6. Screenshots / Demos
+Profit by Category
 
-Profitability Dashboard Preview:
+Beverages generate higher profit than Food
+
+Indicates strong margins in drink-based items
+
+Sales & Profit by Sub-category (Scatter Plot)
+
+Snacks & Bakery → High sales & strong profit
+
+Cold Drinks → Lower profitability
+
+Helps identify optimization opportunities
+
+2️⃣ Profitability Analysis Dashboard
+
+KPIs (Top Section)
+
+Profit Margin: 33.50%
+
+Total Profit: 175,718
+
+Profit Contribution Index: 176
+
+Monthly Profit Trend
+
+Profit fluctuates between 11K – 17K
+
+Highest profit in May & December
+
+Lowest in March
+
+Profit by Sub-category
+
+Coffee leads as the most profitable item
+
+Followed by Snacks and Tea
+
+Cold Drinks contribute the least
+
+Profit Contribution by Sub-category
+
+Coffee: 24.56%
+
+Snacks: 23.57%
+
+Tea: 23.47%
+
+Bakery: 21.34%
+
+➡️ Shows a well-balanced contribution across core items
+
+📈 Business Insights
+
+💰 Strong Profitability – Profit margin of 33.5% indicates a healthy business
+
+☕ Top Performer – Coffee is the highest profit-generating product
+
+🍪 Balanced Contribution – Snacks, Tea, and Bakery contribute almost equally
+
+📉 Low Performer – Cold Drinks have lower profitability
+
+📅 Seasonality Insight – Sales & profit peak in mid-year and year-end
+
+🥤 Category Insight – Beverages outperform food in profitability
+
+🚀 Business Impact
+
+Helps optimize product pricing and menu strategy
+
+Identifies high and low-performing items
+
+Supports inventory and seasonal planning
+
+Enables data-driven decision-making for growth
