@@ -52,7 +52,7 @@ Supports better pricing and product decisions
 
 📊 Dashboard Walkthrough
 1️⃣ Sales Overview Dashboard
-![Dashboard Preview](https://github.com/real-jatin/Coffee-Shop-Sales-analysis/blob/main/profitability.png)
+![Dashboard Preview](https://github.com/real-jatin/Coffee-Shop-Sales-analysis/blob/main/sales.png)
 
 KPIs (Top Section)
 
@@ -93,6 +93,7 @@ Cold Drinks → Lower profitability
 Helps identify optimization opportunities
 
 2️⃣ Profitability Analysis Dashboard
+![Dashboard Preview](https://github.com/real-jatin/Coffee-Shop-Sales-analysis/blob/main/profitability.png)
 
 KPIs (Top Section)
 
