@@ -51,6 +51,7 @@ Monitors monthly trends and seasonality
 Supports better pricing and product decisions
 
 📊 Dashboard Walkthrough
+
 1️⃣ Sales Overview Dashboard
 ![Dashboard Preview](https://github.com/real-jatin/Coffee-Shop-Sales-analysis/blob/main/sales.png)
 
